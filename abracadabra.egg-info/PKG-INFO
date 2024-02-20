@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: abracadabra
+Version: 0.1
+Requires-Dist: click
+Requires-Dist: numpy
+Requires-Dist: PyAudio
+Requires-Dist: pydub
+Requires-Dist: scipy
+Requires-Dist: tinytag
