@@ -3,24 +3,25 @@ import logging
 from multiprocessing import Pool, Lock, current_process
 import numpy as np
 from tinytag import TinyTag
-from . import settings
-from .record import record_audio
-from .fingerprint import fingerprint_file, fingerprint_audio
-from .storage import store_song, get_matches, get_info_for_song_id, song_in_db, checkpoint_db
+from init import settings
+from record import record_audio
+from fingerprint import fingerprint_file, fingerprint_audio
+from storage import store_song, get_matches, get_info_for_song_id, song_in_db, checkpoint_db
+import pygame as pg
 
 KNOWN_EXTENSIONS = ["mp3", "wav", "flac", "m4a"]
 
 
 def get_song_info(filename):
-    """Gets the ID3 tags for a file. Returns None for tuple values that don't exist.
+	"""Gets the ID3 tags for a file. Returns None for tuple values that don't exist.
 
-    :param filename: Path to the file with tags to read
-    :returns: (artist, album, title)
-    :rtype: tuple(str/None, str/None, str/None)
-    """
-    tag = TinyTag.get(filename)
-    artist = tag.artist if tag.albumartist is None else tag.albumartist
-    return (artist, tag.album, tag.title)
+	:param filename: Path to the file with tags to read
+	:returns: (artist, album, title)
+	:rtype: tuple(str/None, str/None, str/None)
+	"""
+	tag = TinyTag.get(filename)
+	artist = tag.artist if tag.albumartist is None else tag.albumartist
+	return (artist, tag.album, tag.title)
 
 
 def register_song(filename):
@@ -38,12 +39,12 @@ def register_song(filename):
         logging.info(f"{current_process().name} waiting to write {filename}")
         with lock:
             logging.info(f"{current_process().name} writing {filename}")
-            store_song(hashes, song_info)
+            store_song(hashes, song_info, filename)
             logging.info(f"{current_process().name} wrote {filename}")
     except NameError:
         logging.info(f"Single-threaded write of {filename}")
         # running single-threaded, no lock needed
-        store_song(hashes, song_info)
+        store_song(hashes, song_info, filename)
 
 
 def register_directory(path):
@@ -78,47 +79,47 @@ def register_directory(path):
 
 
 def score_match(offsets):
-    """Score a matched song.
+	"""Score a matched song.
 
-    Calculates a histogram of the deltas between the time offsets of the hashes from the
-    recorded sample and the time offsets of the hashes matched in the database for a song.
-    The function then returns the size of the largest bin in this histogram as a score.
+	Calculates a histogram of the deltas between the time offsets of the hashes from the
+	recorded sample and the time offsets of the hashes matched in the database for a song.
+	The function then returns the size of the largest bin in this histogram as a score.
 
-    :param offsets: List of offset pairs for matching hashes
-    :returns: The highest peak in a histogram of time deltas
-    :rtype: int
-    """
-    # Use bins spaced 0.5 seconds apart
-    binwidth = 0.5
-    tks = list(map(lambda x: x[0] - x[1], offsets))
-    hist, _ = np.histogram(tks,
-                           bins=np.arange(int(min(tks)),
-                                          int(max(tks)) + binwidth + 1,
-                                          binwidth))
-    return np.max(hist)
+	:param offsets: List of offset pairs for matching hashes
+	:returns: The highest peak in a histogram of time deltas
+	:rtype: int
+	"""
+	# Use bins spaced 0.5 seconds apart
+	binwidth = 0.5
+	tks = list(map(lambda x: x[0] - x[1], offsets))
+	hist, _ = np.histogram(tks,
+							bins=np.arange(int(min(tks)),
+										int(max(tks)) + binwidth + 1,
+										binwidth))
+	return np.max(hist)
 
 
 def best_match(matches):
-    """For a dictionary of song_id: offsets, returns the best song_id.
+	"""For a dictionary of song_id: offsets, returns the best song_id.
 
-    Scores each song in the matches dictionary and then returns the song_id with the best score.
+	Scores each song in the matches dictionary and then returns the song_id with the best score.
 
-    :param matches: Dictionary of song_id to list of offset pairs (db_offset, sample_offset)
-       as returned by :func:`~abracadabra.Storage.storage.get_matches`.
-    :returns: song_id with the best score.
-    :rtype: str
-    """
-    matched_song = None
-    best_score = 0
-    for song_id, offsets in matches.items():
-        if len(offsets) < best_score:
-            # can't be best score, avoid expensive histogram
-            continue
-        score = score_match(offsets)
-        if score > best_score:
-            best_score = score
-            matched_song = song_id
-    return matched_song
+	:param matches: Dictionary of song_id to list of offset pairs (db_offset, sample_offset)
+	as returned by :func:`~abracadabra.Storage.storage.get_matches`.
+	:returns: song_id with the best score.
+	:rtype: str
+	"""
+	matched_song = None
+	best_score = 0
+	for song_id, offsets in matches.items():
+		if len(offsets) < best_score:
+			# can't be best score, avoid expensive histogram
+			continue
+		score = score_match(offsets)
+		if score > best_score:
+			best_score = score
+			matched_song = song_id
+	return matched_song
 
 
 def recognise_song(filename):
@@ -141,21 +142,41 @@ def recognise_song(filename):
 
 
 def listen_to_song(filename=None):
-    """Recognises a song using the microphone.
+	"""Recognises a song using the microphone.
 
-    Optionally saves the sample recorded using the path provided for use in future tests.
-    This function is good for one-off recognitions, to generate a full test suite, look
-    into :func:`~abracadabra.record.gen_many_tests`.
+	Optionally saves the sample recorded using the path provided for use in future tests.
+	This function is good for one-off recognitions, to generate a full test suite, look
+	into :func:`~abracadabra.record.gen_many_tests`.
 
-    :param filename: The path to store the recorded sample (optional)
-    :returns: :func:`~abracadabra.recognise.get_song_info` result for matched song or None.
-    :rtype: tuple(str, str, str)
-    """
-    audio = record_audio(filename=filename)
-    hashes = fingerprint_audio(audio)
-    matches = get_matches(hashes)
-    matched_song = best_match(matches)
-    info = get_info_for_song_id(matched_song)
-    if info is not None:
-        return info
-    return matched_song
+	:param filename: The path to store the recorded sample (optional)
+	:returns: :func:`~abracadabra.recognise.get_song_info` result for matched song or None.
+	:rtype: tuple(str, str, str)
+	"""
+	audio = record_audio(filename=filename)
+	hashes = fingerprint_audio(audio)
+	matches = get_matches(hashes)
+	matched_song = best_match(matches)
+	info = get_info_for_song_id(matched_song)
+	if info is not None:
+		return info
+	return matched_song
+
+def play_song(file_path, play_duration = None):
+	"""Play a song using pygame.
+
+	:param file_path: Path of the song to be played.
+	:param play_duration: The duration of the song to be played.
+	"""
+	pg.init()
+	pg.mixer.init()
+	pg.mixer.music.load(file_path)
+	pg.mixer.music.play()
+	if play_duration:
+		pg.time.wait(play_duration)
+		pg.mixer.music.stop()
+	else:
+		while pg.mixer.music.get_busy():
+			for event in pg.event.get():
+				if event.type == pg.KEYDOWN:
+					print("Musik beendet")
+					pg.mixer.music.stop()

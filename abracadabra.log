@@ -1,0 +1,14 @@
+INFO:root:MainProcess waiting to write .\Samples\StarWars60.wav
+INFO:root:Single-threaded write of .\Samples\StarWars60.wav
+INFO:root:MainProcess waiting to write .\Samples\CantinaBand60.wav
+INFO:root:Single-threaded write of .\Samples\CantinaBand60.wav
+INFO:root:MainProcess waiting to write .\Samples\CantinaBand60.wav
+INFO:root:Single-threaded write of .\Samples\CantinaBand60.wav
+INFO:root:MainProcess waiting to write .\Samples\CantinaBand60.wav
+INFO:root:Single-threaded write of .\Samples\CantinaBand60.wav
+INFO:root:MainProcess waiting to write .\Samples\CantinaBand60.wav
+INFO:root:Single-threaded write of .\Samples\CantinaBand60.wav
+INFO:root:MainProcess waiting to write .\Samples\CantinaBand60.wav
+INFO:root:Single-threaded write of .\Samples\CantinaBand60.wav
+INFO:root:MainProcess waiting to write .\Samples\StarWars60.wav
+INFO:root:Single-threaded write of .\Samples\StarWars60.wav

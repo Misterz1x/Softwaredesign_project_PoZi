@@ -2,7 +2,7 @@ import uuid
 import sqlite3
 from collections import defaultdict
 from contextlib import contextmanager
-from . import settings
+from init import settings
 
 
 @contextmanager
@@ -25,7 +25,7 @@ def setup_db():
     """
     with get_cursor() as (conn, c):
         c.execute("CREATE TABLE IF NOT EXISTS hash (hash int, offset real, song_id text)")
-        c.execute("CREATE TABLE IF NOT EXISTS song_info (artist text, album text, title text, song_id text)")
+        c.execute("CREATE TABLE IF NOT EXISTS song_info (artist text, album text, title text, song_id text, path text)")
         # dramatically speed up recognition
         c.execute("CREATE INDEX IF NOT EXISTS idx_hash ON hash (hash)")
         # faster write mode that enables greater concurrency
@@ -53,7 +53,7 @@ def song_in_db(filename):
         return c.fetchone() is not None
 
 
-def store_song(hashes, song_info):
+def store_song(hashes, song_info, file_path):
     """Register a song in the database.
 
     :param hashes: A list of tuples of the form (hash, time offset, song_id) as returned by
@@ -68,7 +68,7 @@ def store_song(hashes, song_info):
     with get_cursor() as (conn, c):
         c.executemany("INSERT INTO hash VALUES (?, ?, ?)", hashes)
         insert_info = [i if i is not None else "Unknown" for i in song_info]
-        c.execute("INSERT INTO song_info VALUES (?, ?, ?, ?)", (*insert_info, hashes[0][2]))
+        c.execute("INSERT INTO song_info VALUES (?, ?, ?, ?, ?)", (*insert_info, hashes[0][2], file_path))
         conn.commit()
 
 
@@ -98,5 +98,5 @@ def get_matches(hashes, threshold=5):
 def get_info_for_song_id(song_id):
     """Lookup song information for a given ID."""
     with get_cursor() as (conn, c):
-        c.execute("SELECT artist, album, title FROM song_info WHERE song_id = ?", (song_id,))
+        c.execute("SELECT artist, album, title, path FROM song_info WHERE song_id = ?", (song_id,))
         return c.fetchone()
