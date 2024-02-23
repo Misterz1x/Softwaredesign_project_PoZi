@@ -1,2 +1,0 @@
-[console_scripts]
-song_recogniser = abracadabra.scripts.song_recogniser:cli
