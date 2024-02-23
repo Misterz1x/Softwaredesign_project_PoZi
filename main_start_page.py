@@ -3,10 +3,6 @@ import streamlit as st
 from streamlit_extras.app_logo import add_logo
 from streamlit_extras.colored_header import colored_header
 
-
-
-
-
 st.set_page_config( page_title="Wavecraft", page_icon=":musical_note:")
 
 
@@ -42,6 +38,7 @@ def main():
 
     st.title("Wavecraft")
     st.markdown("Welcome to Wavecraft! This website lets you recognise your favorite songs and unknown musical pieces")
+
 
 if __name__ == "__main__":
     main()
