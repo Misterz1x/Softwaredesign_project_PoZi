@@ -1,0 +1,6 @@
+click
+numpy
+PyAudio
+pydub
+scipy
+tinytag

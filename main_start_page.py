@@ -4,17 +4,15 @@ from streamlit_extras.app_logo import add_logo
 from streamlit_extras.colored_header import colored_header
 
 
-
-
 st.set_page_config( page_title="Wavecraft", page_icon=":musical_note:")
 
 
 
 show_pages(
-	[
-		Page("register_page.py", "Upload your songs", "🎵"),
-		Page("recognise_page.py", "Find the song", "🔮")
-	]
+    [
+        Page("register_page.py", "Upload your songs", "🎵"),
+        Page("recognise_page.py", "Find the song", "🔮")
+    ]
 )
 
 
@@ -30,8 +28,7 @@ show_pages(
         #st.write("Wavecraft is listening")
 
 def add_logo():
-    logo_image = "Pictures\crying_cat.jpg"
-
+    logo_image = "crying_cat.jpg"
     st.image(logo_image, width=200)
 
 
@@ -43,6 +40,11 @@ def main():
     st.title("Wavecraft")
     st.markdown("Welcome to Wavecraft! This website lets you recognise your favorite songs and unknown musical pieces")
 
+    #if st.button("Register"):
+        #register_page()
+
+    #if st.button("Recognise"):
+        #recognise_page()
+
 if __name__ == "__main__":
     main()
-
