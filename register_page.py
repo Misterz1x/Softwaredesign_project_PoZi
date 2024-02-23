@@ -13,13 +13,15 @@ from pydub import AudioSegment
 
 st.set_page_config( page_title="Upload your Song", page_icon=":musical_note:")
 
+
 st.title("Upload your songs!")
 st.markdown(
     """
-    This page allows you to upload songs that will be processed and stored into our database.
+    This page allows you to upload songs that will be processed and stored into our database. 
     Afterwards you can use the 'Find your song' page to try and recognise those songs.
     """
     )
+
 
 if 'show_session_reg' not in st.session_state:
     st.session_state.show_session_reg = 0

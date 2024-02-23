@@ -6,7 +6,6 @@ from streamlit_extras.colored_header import colored_header
 
 
 
-
 st.set_page_config( page_title="Wavecraft", page_icon=":musical_note:")
 
 
@@ -32,6 +31,7 @@ show_pages(
 
 def add_logo():
     logo_image = "Pictures\crying_cat.jpg"
+
     st.image(logo_image, width=200)
 
 
@@ -45,3 +45,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

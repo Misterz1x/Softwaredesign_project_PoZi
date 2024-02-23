@@ -1,6 +1,7 @@
 import os
 import time
 import numpy as np
+
 from st_pages import Page, add_page_title, show_pages
 import streamlit as st
 from streamlit_extras.app_logo import add_logo
@@ -10,6 +11,8 @@ from Musikerkennung.class_recognise import Recognise as recog
 from pydub import AudioSegment
 
 st.set_page_config( page_title="Find your song", page_icon="🔮")
+
+
 
 
 st.title("We'll find your song!")
@@ -101,3 +104,10 @@ if st.session_state.show_session_rec == 1:
 		st.rerun()
 	if button2_ph.button("Activate Microphone"):
 		listening_button()
+    
+    This page allows you to upload songs or snippets with the 'Recognise' button. If the song is in our database 
+    (using the 'Upload your songs' page) we'll try to tell you which song it is. 
+
+    If you press the 'Activate Microphone' button we actively listen to your song and we'll try to recognise it. 
+    """)
+
