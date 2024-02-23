@@ -105,9 +105,3 @@ if st.session_state.show_session_rec == 1:
 	if button2_ph.button("Activate Microphone"):
 		listening_button()
     
-    This page allows you to upload songs or snippets with the 'Recognise' button. If the song is in our database 
-    (using the 'Upload your songs' page) we'll try to tell you which song it is. 
-
-    If you press the 'Activate Microphone' button we actively listen to your song and we'll try to recognise it. 
-    """)
-
