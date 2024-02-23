@@ -46,5 +46,5 @@ DB_PATH = "hash.db"
 NUM_WORKERS = 24
 """ Number of workers to use when registering songs. """
 
-KNWON_EXTENSIONS = ["mp3", "wav", "flac", "m4a"]
+KNOWN_EXTENSIONS = ["mp3", "wav", "flac", "m4a"]
 """ List of file extensions to consider when registering songs."""
