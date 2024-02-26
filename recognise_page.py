@@ -1,3 +1,4 @@
+
 import os
 import streamlit as st
 from streamlit_extras.app_logo import add_logo
@@ -7,6 +8,7 @@ from Musikerkennung.class_recognise import Recognise as recog
 from pydub import AudioSegment
 
 st.set_page_config( page_title="Find your song", page_icon="🔮")
+
 
 
 st.title("We'll find your song!")

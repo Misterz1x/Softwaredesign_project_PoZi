@@ -23,5 +23,6 @@ def main():
 	st.title("Wavecraft")
 	st.markdown("Welcome to Wavecraft! This website lets you recognise your favorite songs and unknown musical pieces")
 
+
 if __name__ == "__main__":
 	main()
