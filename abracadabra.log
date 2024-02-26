@@ -215,3 +215,2676 @@ INFO:root:Matched Musik\CantinaBand60.wav
 INFO:root:Discover the fingerprint of Musik\StarWars3.wav. (2024-02-23 11:23:05.222098)
 INFO:root:Find matches for Musik\StarWars3.wav. (2024-02-23 11:23:05.232109)
 INFO:root:Matched Musik\StarWars60.wav
+INFO:root:Musik\CantinaBand60.wav is already registered. (2024-02-23 12:10:25.662135)
+INFO:root:Musik\StarWars60.wav is already registered. (2024-02-23 12:10:33.495734)
+INFO:root:Discover the fingerprint of Musik\StarWars3.wav. (2024-02-23 12:10:41.120967)
+INFO:root:Find matches for Musik\StarWars3.wav. (2024-02-23 12:10:41.131981)
+INFO:root:Matched Musik\StarWars60.wav
+INFO:root:Download https://www.youtube.com/watch?v=xQRhlH4U0n0&list=RDxQRhlH4U0n0&start_radio=1. (2024-02-23 13:08:23.573436)
+ERROR:root:Error in download_audio: module 'pytube' has no attribute 'Youtube'
+INFO:root:Download https://www.youtube.com/watch?v=xQRhlH4U0n0&list=RDxQRhlH4U0n0&start_radio=1. (2024-02-23 13:08:24.953760)
+ERROR:root:Error in download_audio: module 'pytube' has no attribute 'Youtube'
+INFO:root:Download https://www.youtube.com/watch?v=xQRhlH4U0n0&list=RDxQRhlH4U0n0&start_radio=1. (2024-02-23 13:08:25.556626)
+ERROR:root:Error in download_audio: module 'pytube' has no attribute 'Youtube'
+INFO:root:Download https://www.youtube.com/watch?v=xQRhlH4U0n0&list=RDxQRhlH4U0n0&start_radio=1. (2024-02-23 13:08:26.302307)
+ERROR:root:Error in download_audio: module 'pytube' has no attribute 'Youtube'
+INFO:root:Download https://youtu.be/xQRhlH4U0n0?si=fFoJg7EvC1stVoKc. (2024-02-23 13:08:42.922788)
+ERROR:root:Error in download_audio: module 'pytube' has no attribute 'Youtube'
+INFO:root:Download https://youtu.be/xQRhlH4U0n0?si=fFoJg7EvC1stVoKc. (2024-02-23 13:08:45.219148)
+ERROR:root:Error in download_audio: module 'pytube' has no attribute 'Youtube'
+INFO:root:Download https://youtu.be/xQRhlH4U0n0?si=fFoJg7EvC1stVoKc. (2024-02-23 13:08:46.120753)
+ERROR:root:Error in download_audio: module 'pytube' has no attribute 'Youtube'
+INFO:root:Download https://youtu.be/xQRhlH4U0n0?si=fFoJg7EvC1stVoKc. (2024-02-23 13:09:25.034357)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: DMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1370122 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Ricky Martin - Livin' la vida loca (HBz Remix).mp3\Ricky Martin - Livin la vida loca (HBz Remix).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Musik\Ricky Martin - Livin' la vida loca (HBz Remix).mp3. (2024-02-23 13:09:29.084518)
+ERROR:root:Error in register_song: [Errno 13] Permission denied: "Musik\\Ricky Martin - Livin' la vida loca (HBz Remix).mp3"
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:10:36.755677)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1953147 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp3\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp3. (2024-02-23 13:10:40.862806)
+ERROR:root:Error in register_song: [Errno 13] Permission denied: 'Musik\\Meg & Dia - Monster (EX10 Hardstyle Remix).mp3'
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:12:00.809397)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1953147 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+DEBUG:pytube.streams:downloading (1953147 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp3\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp3. (2024-02-23 13:12:04.149366)
+ERROR:root:Error in register_song: [Errno 13] Permission denied: 'Musik\\Meg & Dia - Monster (EX10 Hardstyle Remix).mp3'
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:13:10.272382)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp3. (2024-02-23 13:13:12.317086)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: 'Musik\\Meg & Dia - Monster (EX10 Hardstyle Remix).mp3'
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:15:38.214381)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Musik\Meg & Dia - Monster (EX10 Hardstyle Remix). (2024-02-23 13:15:40.438630)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: 'Musik\\Meg & Dia - Monster (EX10 Hardstyle Remix)'
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:21:17.351001)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Musik\Meg & Dia - Monster (EX10 Hardstyle Remix). (2024-02-23 13:21:19.070681)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: 'Musik\\Meg & Dia - Monster (EX10 Hardstyle Remix)'
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:22:53.785733)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Musik\Meg & Dia - Monster (EX10 Hardstyle Remix)\.mp4. (2024-02-23 13:22:55.791090)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: 'Musik\\Meg & Dia - Monster (EX10 Hardstyle Remix)\\.mp4'
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:24:21.197891)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4. (2024-02-23 13:24:23.155200)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:28:10.072106)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: DMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4. (2024-02-23 13:28:12.904596)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:29:51.800363)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded .\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4. (2024-02-23 13:29:54.615626)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download  [WinError 2] The system cannot find the file specified. (2024-02-23 13:33:22.662221)
+ERROR:root:Error in download_audio: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:33:29.498303)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: DMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4. (2024-02-23 13:33:32.650362)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: 'Meg & Dia - Monster (EX10 Hardstyle Remix).mp4'
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:36:47.073075)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Meg & Dia - Monster (EX10 Hardstyle Remix). (2024-02-23 13:36:49.806983)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:37:24.680433)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Meg & Dia - Monster (EX10 Hardstyle Remix). (2024-02-23 13:37:26.755873)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:38:23.180485)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1953147 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Youtube_file
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Meg & Dia - Monster (EX10 Hardstyle Remix). (2024-02-23 13:38:26.021205)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:40:22.651501)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+ERROR:root:Error in download_audio: 'NoneType' object has no attribute 'download'
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:40:33.550137)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+ERROR:root:Error in download_audio: 'NoneType' object has no attribute 'download'
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:42:22.800472)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Meg & Dia - Monster (EX10 Hardstyle Remix). (2024-02-23 13:42:24.991554)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/OcM84wo63yY?si=7O2IEJa3ZrEnaysi. (2024-02-23 13:43:22.998658)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Meg & Dia - Monster (EX10 Hardstyle Remix).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Meg & Dia - Monster (EX10 Hardstyle Remix). (2024-02-23 13:43:24.860670)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/Bs9T-ajUSOc?si=0xrVoyYZGQ1gLhle. (2024-02-24 09:20:32.442445)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1435916 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\No Friends AMV - \u300cAnime MV\u300d.mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded No Friends AMV - \u300cAnime MV\u300d. (2024-02-24 09:20:36.075081)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/Bs9T-ajUSOc?si=0xrVoyYZGQ1gLhle. (2024-02-24 09:24:05.877498)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1435916 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\No Friends AMV - \u300cAnime MV\u300d.mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: normpath() takes 1 positional argument but 2 were given
+INFO:root:Download https://youtu.be/Bs9T-ajUSOc?si=0xrVoyYZGQ1gLhle. (2024-02-24 09:24:48.683092)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\No Friends AMV - \u300cAnime MV\u300d.mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded No Friends AMV - \u300cAnime MV\u300d. (2024-02-24 09:24:50.495849)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: 'No Friends AMV - \u300cAnime MV\u300d.mp4'
+INFO:root:Download https://youtu.be/Bs9T-ajUSOc?si=0xrVoyYZGQ1gLhle. (2024-02-24 09:25:33.684488)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\No Friends AMV - \u300cAnime MV\u300d.mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: 'str' object has no attribute 'video'
+INFO:root:Download https://youtu.be/Bs9T-ajUSOc?si=0xrVoyYZGQ1gLhle. (2024-02-24 09:25:58.047128)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\No Friends AMV - \u300cAnime MV\u300d.mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded No Friends AMV - \u300cAnime MV\u300d. (2024-02-24 09:26:00.113388)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/YvRE14Sm1mM?si=Jnqo-9M11EvY7I6O. (2024-02-24 09:27:11.033928)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1113932 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Nachbarn.mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Nachbarn. (2024-02-24 09:27:13.418515)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Musik\CantinaBand60.wav is already registered. (2024-02-24 09:28:41.127000)
+INFO:root:Musik\CantinaBand60.wav is already registered. (2024-02-24 09:33:59.493707)
+INFO:root:Musik\CantinaBand60.wav is already registered. (2024-02-24 09:36:02.696105)
+INFO:root:Musik\CantinaBand60.wav is already registered. (2024-02-24 09:36:03.772591)
+INFO:root:Musik\CantinaBand60.wav is already registered. (2024-02-25 10:27:00.264619)
+INFO:root:Download . (2024-02-25 10:28:01.678753)
+ERROR:root:Error in download_audio: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+INFO:root:Musik\StarWars60.wav is already registered. (2024-02-25 10:30:50.209611)
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:02:30.015175)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (9465924 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Alok & MondelloG & CERES - LETS GET FKD UP  (feat Tribbs).mp4
+DEBUG:pytube.streams:download remaining: 28740
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs). (2024-02-25 11:02:36.582863)
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:04:56.052998)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (9465924 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Alok & MondelloG & CERES - LETS GET FKD UP  (feat Tribbs).mp4
+DEBUG:pytube.streams:download remaining: 28740
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs). (2024-02-25 11:05:01.780256)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: "Musik\\Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs).mp4"
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:06:03.365399)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Alok & MondelloG & CERES - LETS GET FKD UP  (feat Tribbs).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs). (2024-02-25 11:06:05.514299)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: "Musik\\Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs).mp4"
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:08:04.077079)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+ERROR:root:Error in download_audio: 'NoneType' object has no attribute 'download'
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:09:15.721438)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+ERROR:root:Error in download_audio: 'NoneType' object has no attribute 'download'
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:18:38.531465)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+ERROR:root:Error in download_audio: 'NoneType' object has no attribute 'download'
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:19:01.841769)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (729861 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Alok & MondelloG & CERES - LETS GET FKD UP  (feat Tribbs).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:22:11.509568)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (729861 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Alok & MondelloG & CERES - LETS GET FKD UP  (feat Tribbs).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:22:38.563367)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (9465924 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Alok & MondelloG & CERES - LETS GET FKD UP  (feat Tribbs).mp4
+DEBUG:pytube.streams:download remaining: 28740
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs). (2024-02-25 11:22:43.754201)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: "Musik\\Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs).mp4"
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:23:40.006500)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (9465924 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Youtube
+DEBUG:pytube.streams:download remaining: 28740
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs). (2024-02-25 11:23:43.576484)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: "Musik\\Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs).mp4"
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:24:11.778589)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Youtube already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs). (2024-02-25 11:24:13.623821)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: 'Musik\\Alok & MondelloG & CERES - LETS GET FKD UP  (feat Tribbs).mp4.mp4'
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:24:50.683481)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (729861 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Youtube
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs). (2024-02-25 11:24:53.354072)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: 'Musik\\Alok & MondelloG & CERES - LETS GET FKD UP  (feat Tribbs).mp4.mp4'
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:25:38.770761)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (729861 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Youtube
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs). (2024-02-25 11:25:40.969276)
+ERROR:root:Error in register_song: [Errno 2] No such file or directory: 'Musik\\Alok & MondelloG & CERES - LETS GET FKD UP  (feat Tribbs).mp4.mp4'
+INFO:root:Download https://youtu.be/nxfJmYVYdYI?si=4qeY6noFQrZ5czq9. (2024-02-25 11:26:05.783695)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (729861 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Alok & MondelloG & CERES - LETS GET FKD UP  (feat Tribbs).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Alok & Mondello'G & CERES - LET'S GET FKD UP  (feat. Tribbs). (2024-02-25 11:26:08.363800)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=f4Joj0pdaAUKABUZ. (2024-02-25 12:02:17.202680)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-25 12:02:22.004982)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=f4Joj0pdaAUKABUZ. (2024-02-25 12:03:05.926253)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-25 12:03:08.365619)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=f4Joj0pdaAUKABUZ. (2024-02-25 12:04:02.541218)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-25 12:04:04.179649)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=f4Joj0pdaAUKABUZ. (2024-02-25 12:04:38.931840)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-25 12:04:41.702653)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=f4Joj0pdaAUKABUZ. (2024-02-25 12:05:36.994663)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-25 12:05:39.339573)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=f4Joj0pdaAUKABUZ. (2024-02-25 12:06:46.514299)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-25 12:06:49.355657)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=f4Joj0pdaAUKABUZ. (2024-02-25 12:09:22.564846)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: Executable 'ffmpeg' not found
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=ILRpLG0Pn9u3SEEs. (2024-02-25 12:15:59.012330)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: Executable 'ffmpeg' not found
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=ILRpLG0Pn9u3SEEs. (2024-02-25 12:31:42.687851)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: Executable 'ffmpeg' not found
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=kRAKMvL35eIfrhlA. (2024-02-26 14:25:05.231251)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-26 14:25:08.521456)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=kRAKMvL35eIfrhlA. (2024-02-26 14:25:42.767966)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-26 14:25:44.502824)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=kRAKMvL35eIfrhlA. (2024-02-26 14:30:54.651425)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=kRAKMvL35eIfrhlA. (2024-02-26 14:33:56.695341)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=kRAKMvL35eIfrhlA. (2024-02-26 14:44:07.449585)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:file D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4 already exists, skipping
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-26 14:44:10.900503)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=kRAKMvL35eIfrhlA. (2024-02-26 14:44:27.287317)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-26 14:44:30.033506)
+ERROR:root:Error in register_song: [WinError 2] The system cannot find the file specified
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=kRAKMvL35eIfrhlA. (2024-02-26 14:45:32.390186)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: File already exists in output path: D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).wav.
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=kRAKMvL35eIfrhlA. (2024-02-26 14:45:53.081156)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-26 14:45:56.000851)
+INFO:root:MainProcess waiting to write Musik\Arrows To Athens - City Of Angels (Lyrics video).wav. (2024-02-26 14:46:00.186318
+INFO:root:MainProcess done writing Musik\Arrows To Athens - City Of Angels (Lyrics video).wav. (2024-02-26 14:46:00.980871)
+INFO:root:Download https://youtu.be/YvRE14Sm1mM?si=7KCLBl7OWNeVP0xL. (2024-02-26 14:52:43.360469)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1113932 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Nachbarn.mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Nachbarn. (2024-02-26 14:52:46.184177)
+INFO:root:MainProcess waiting to write Musik\Nachbarn.wav. (2024-02-26 14:52:48.932769
+INFO:root:MainProcess done writing Musik\Nachbarn.wav. (2024-02-26 14:52:50.016344)
+INFO:root:Find matches for Musik/recorded_song.wav. (2024-02-26 14:54:04.761954)
+INFO:root:Matched Musik\Nachbarn.wav
+ERROR:root:Error in recognise_song: 'NoneType' object has no attribute 'read'. (2024-02-26 14:57:59.161639)
+ERROR:root:Error in recognise_song: 'NoneType' object has no attribute 'read'. (2024-02-26 14:58:35.875518)
+INFO:root:Find matches for Musik/recorded_song.wav. (2024-02-26 15:01:27.683568)
+INFO:root:Matched Musik\Arrows To Athens - City Of Angels (Lyrics video).wav
+INFO:root:Download https://youtu.be/c3rLrFC8igY?si=RftjRp6PBEmxyNZF. (2024-02-26 15:23:13.053069)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1533899 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Auf die guten alten Zeiten.mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Auf die guten alten Zeiten. (2024-02-26 15:23:15.693932)
+INFO:root:MainProcess waiting to write Musik\Auf die guten alten Zeiten.wav. (2024-02-26 15:23:20.852321
+INFO:root:MainProcess done writing Musik\Auf die guten alten Zeiten.wav. (2024-02-26 15:23:22.939794)
+INFO:root:Download https://youtu.be/c3rLrFC8igY?si=RftjRp6PBEmxyNZF. (2024-02-26 15:24:33.899494)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1533899 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Auf die guten alten Zeiten.mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: File already exists in output path: D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Auf die guten alten Zeiten.wav.
+INFO:root:Download https://youtu.be/-YMYNxLKFWI?si=n6O3wORZldZB7G8z. (2024-02-26 15:24:56.546291)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (2059971 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Break The Rules - Charli XCX (Razor Noize Hardstyle Extended Remix) 2023.mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+DEBUG:pytube.helpers:matched regex search: (?<=itemprop=\"datePublished\" content=\")\d{4}-\d{2}-\d{2}
+INFO:root:Downloaded Break The Rules - Charli XCX (Razor Noize Hardstyle Extended Remix) 2023. (2024-02-26 15:24:59.892230)
+INFO:root:MainProcess waiting to write Musik\Break The Rules - Charli XCX (Razor Noize Hardstyle Extended Remix) 2023.wav. (2024-02-26 15:25:08.494561
+INFO:root:MainProcess done writing Musik\Break The Rules - Charli XCX (Razor Noize Hardstyle Extended Remix) 2023.wav. (2024-02-26 15:25:11.577307)
+INFO:root:Download https://youtu.be/exJlapzPnlc?si=Roz2SS77F-ulfYft. (2024-02-26 15:28:27.368314)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1738877 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\The Hum.mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded The Hum. (2024-02-26 15:28:30.166018)
+INFO:root:MainProcess waiting to write Musik\The Hum.wav. (2024-02-26 15:28:36.431895
+INFO:root:MainProcess done writing Musik\The Hum.wav. (2024-02-26 15:28:40.503477)
+INFO:root:Download https://youtu.be/HVC5VfdJeYE?si=E4bni5SODGLr-N0G. (2024-02-26 15:30:03.241573)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (2014748 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Bleib in der Schule (HBz Remix).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Bleib in der Schule (HBz Remix). (2024-02-26 15:30:06.758990)
+INFO:root:MainProcess waiting to write Musik\Bleib in der Schule (HBz Remix).wav. (2024-02-26 15:30:15.238748
+INFO:root:MainProcess done writing Musik\Bleib in der Schule (HBz Remix).wav. (2024-02-26 15:30:20.409237)
+INFO:root:Download https://youtu.be/KZQAXpb21LU?si=xVfvOQGSiNVfDyI8. (2024-02-26 15:35:08.105909)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1165489 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Yard Sale (Folk Version).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Yard Sale (Folk Version). (2024-02-26 15:35:10.950049)
+INFO:root:MainProcess waiting to write Musik\Yard Sale (Folk Version).wav. (2024-02-26 15:35:14.603319
+INFO:root:MainProcess done writing Musik\Yard Sale (Folk Version).wav. (2024-02-26 15:35:20.539245)
+INFO:root:Download https://youtu.be/DEAC_GdEYyY?si=INBYlA_fKHgF1T7S. (2024-02-26 15:38:48.031691)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (2041882 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Tom Odell - Another Love (Lyrics).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Tom Odell - Another Love (Lyrics). (2024-02-26 15:38:51.252088)
+INFO:root:MainProcess waiting to write Musik\Tom Odell - Another Love (Lyrics).wav. (2024-02-26 15:39:00.387978
+INFO:root:MainProcess done writing Musik\Tom Odell - Another Love (Lyrics).wav. (2024-02-26 15:39:07.101500)
+INFO:root:Download https://youtu.be/hcXBPbLDRmk?si=oBbAhlK4qMssP_n-. (2024-02-26 15:40:04.636988)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1029266 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Luke Combs - Going Going Gone  Top Lyrics.mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Luke Combs - Going, Going, Gone | Top Lyrics. (2024-02-26 15:40:08.219315)
+INFO:root:MainProcess waiting to write Musik\Luke Combs - Going Going Gone  Top Lyrics.wav. (2024-02-26 15:40:11.453883
+INFO:root:MainProcess done writing Musik\Luke Combs - Going Going Gone  Top Lyrics.wav. (2024-02-26 15:40:18.935726)
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=_wNl4cNEorcg3CsA. (2024-02-26 15:50:35.340948)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-26 15:50:39.172032)
+INFO:root:MainProcess waiting to write Musik\Arrows To Athens - City Of Angels (Lyrics video).wav. (2024-02-26 15:50:43.276134
+ERROR:root:Error in register_song: tuple indices must be integers or slices, not str
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=_wNl4cNEorcg3CsA. (2024-02-26 15:52:18.104859)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: File already exists in output path: D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).wav.
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=_wNl4cNEorcg3CsA. (2024-02-26 15:52:29.439185)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-26 15:52:31.917670)
+INFO:root:MainProcess waiting to write Musik\Arrows To Athens - City Of Angels (Lyrics video).wav. (2024-02-26 15:52:36.257290
+INFO:root:MainProcess done writing Musik\Arrows To Athens - City Of Angels (Lyrics video).wav. (2024-02-26 15:52:36.380667)
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=_wNl4cNEorcg3CsA. (2024-02-26 15:58:13.318844)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+ERROR:root:Error in download_audio: File already exists in output path: D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).wav.
+INFO:root:Download https://youtu.be/CEP6ta5SF8I?si=_wNl4cNEorcg3CsA. (2024-02-26 15:58:34.063263)
+DEBUG:pytube.helpers:matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+DEBUG:pytube.extract:applying descrambler
+DEBUG:pytube.extract:finding initial function name
+DEBUG:pytube.extract:Pattern failed: ytplayer\.config\s*=\s*
+DEBUG:pytube.extract:Could not parse object.
+DEBUG:pytube.extract:finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+DEBUG:pytube.cipher:finding initial function name
+DEBUG:pytube.cipher:finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+DEBUG:pytube.cipher:getting transform plan
+DEBUG:pytube.helpers:matched regex search: CMa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+DEBUG:pytube.cipher:getting transform object
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.cipher:Finding throttling function name
+DEBUG:pytube.cipher:finished regex search, matched: a\.[a-zA-Z]\s*&&\s*\([a-z]\s*=\s*a\.get\("n"\)\)\s*&&\s*\([a-z]\s*=\s*([a-zA-Z0-9$]+)(\[\d+\])?\([a-z]\)
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.extract:signature found, skip decipher
+DEBUG:pytube.streams:downloading (1392966 total bytes) file to D:\MCI\Softwaredesign\Abschlussprojekt_2024\Musik\Arrows To Athens - City Of Angels (Lyrics video).mp4
+DEBUG:pytube.streams:download remaining: 0
+DEBUG:pytube.streams:download finished
+INFO:root:Downloaded Arrows To Athens - City Of Angels (Lyrics video). (2024-02-26 15:58:36.869613)
+INFO:root:MainProcess waiting to write Musik\Arrows To Athens - City Of Angels (Lyrics video).wav. (2024-02-26 15:58:40.982873
+INFO:root:MainProcess done writing Musik\Arrows To Athens - City Of Angels (Lyrics video).wav. (2024-02-26 15:58:41.419323)
+INFO:root:Find matches for Musik/recorded_song.wav. (2024-02-26 16:00:11.230579)
+INFO:root:Matched Musik\Arrows To Athens - City Of Angels (Lyrics video).wav

@@ -42,7 +42,7 @@ class Save():
 			#Create a table in the database for the song info
 			table = Save.db_connector.table('song_info')
 			#Create a dictionary to store the data
-			song_data = {'artist': self.song_info[0], 'title': self.song_info[1], 'album': self.song_info[2], 'song_id': self.hashes[0]['song_id'],'file_path': self.file_path}
+			song_data = {'artist': self.song_info['artist'], 'title': self.song_info['title'], 'file_link': self.song_info['file_link'], 'song_id': self.hashes[0]['song_id'],'file_path': self.file_path}
 			# Store the data
 			table.insert(song_data)
 
