@@ -1,8 +1,5 @@
 
 import os
-import time
-import numpy as np
-from st_pages import Page, add_page_title, show_pages
 import streamlit as st
 from streamlit_extras.app_logo import add_logo
 from streamlit_extras.colored_header import colored_header
@@ -16,15 +13,15 @@ st.set_page_config( page_title="Find your song", page_icon="🔮")
 
 st.title("We'll find your song!")
 st.markdown(
-    """
-    This page allows you to upload songs or snippets with the 'Recognise' button. If the song is in our database
-    (using the 'Upload your songs' page) we'll try to tell you which song it is.
+	"""
+	This page allows you to upload songs or snippets with the 'Recognise' button. If the song is in our database
+	(using the 'Upload your songs' page) we'll try to tell you which song it is.
 
-    If you press the 'Activate Microphone' button we actively listen to your song and we'll try to recognise it.
-    """)
+	If you press the 'Activate Microphone' button we actively listen to your song and we'll try to recognise it.
+	""")
 
 if 'show_session_rec' not in st.session_state:
-    st.session_state.show_session_rec = 0
+	st.session_state.show_session_rec = 0
 
 # Define the placeholders
 button1_ph = st.empty()
@@ -34,7 +31,7 @@ play_ph = st.empty()
 button2_ph = st.empty()
 
 def register_file():
-	uploaded_file = file_ph.file_uploader("Upload a wav-file or a folder", type=KNOWN_EXTENSIONS,)
+	uploaded_file = file_ph.file_uploader("Upload a wav-file or a folder", type=KNOWN_EXTENSIONS)
 	if uploaded_file is not None:
 	# To read file as bytes:
 		file_path = os.path.join("Musik", uploaded_file.name)
@@ -69,11 +66,12 @@ def listening_button():
 	#add recongnise code
 	with st.spinner('Listening...'):
 		try:
-			Rec = recog("Musik/recorded_song.wav")
+			Rec = recog(filename="Musik/recorded_song.wav")
 			Rec.listen_to_song()
 			delete_file_in_folder("Musik/recorded_song.wav")
 			if Rec.song_data().song_info['title'] is not None and Rec.song_data().song_info['artist'] is not None:
-				info_ph.success(f'Song recognised! We think it is: {Rec.song_data().song_info['title']} by {Rec.song_data().song_info['artist']}')
+				print(Rec.song_data())
+				info_ph.success(f'Song recognised! We think it is: {Rec.song_data().song_info['title']} by {Rec.song_data().song_info['artist']}, Link to Youtube: {Rec.song_data().song_info['file_link']}')
 			else:
 				info_ph.success(f'Song recognised! We think it is: {Rec.filename}')
 			# Add the song to the audio_transmitter

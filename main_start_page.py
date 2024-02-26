@@ -5,8 +5,6 @@ from streamlit_extras.colored_header import colored_header
 
 st.set_page_config( page_title="Wavecraft", page_icon=":musical_note:")
 
-
-
 show_pages(
 	[
 		Page("register_page.py", "Upload your songs", "🎵"),
@@ -14,31 +12,17 @@ show_pages(
 	]
 )
 
-
-#def register_page():
-    #st.title("Register Page")
-    #uploaded_file = st.file_uploader("Upload a wav-file or a folder")
-
-#def recognise_page():
-    #st.title("Recognise Page")
-    #uploaded_file = st.file_uploader("Upload a wav-file or a folder")
-    #if st.button("Activate Microphone"):
-        #add recongnise code
-        #st.write("Wavecraft is listening")
-
 def add_logo():
-    logo_image = "Pictures\crying_cat.jpg"
-    st.image(logo_image, width=200)
-
-
+	logo_image = "Pictures\crying_cat.jpg"
+	st.image(logo_image, width=200)
 
 def main():
 
-    add_logo()
+	add_logo()
 
-    st.title("Wavecraft")
-    st.markdown("Welcome to Wavecraft! This website lets you recognise your favorite songs and unknown musical pieces")
+	st.title("Wavecraft")
+	st.markdown("Welcome to Wavecraft! This website lets you recognise your favorite songs and unknown musical pieces")
 
 
 if __name__ == "__main__":
-    main()
+	main()

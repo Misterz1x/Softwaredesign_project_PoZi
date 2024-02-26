@@ -2,7 +2,6 @@ import logging
 import numpy as np
 import wave
 import pyaudio
-import os
 
 
 CHUNK = 1024
