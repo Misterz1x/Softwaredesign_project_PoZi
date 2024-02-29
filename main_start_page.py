@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_extras.app_logo import add_logo
 from streamlit_extras.colored_header import colored_header
 
-st.set_page_config( page_title="Wavecraft", page_icon=":musical_note:")
+st.set_page_config( page_title="Wavecraft", page_icon=":musical_note:", layout="wide")
 
 show_pages(
 	[

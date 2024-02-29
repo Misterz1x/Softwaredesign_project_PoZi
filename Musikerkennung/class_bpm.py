@@ -1,3 +1,4 @@
+
 import argparse
 import array
 import math
@@ -158,3 +159,4 @@ class BPM():
 		#print(bpm)
 
 		return bpm, correl
+
