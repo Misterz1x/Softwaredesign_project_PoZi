@@ -13,7 +13,7 @@ show_pages(
 )
 
 def add_logo():
-	logo_image = "Pictures\crying_cat.jpg"
+	logo_image = "Pictures\Wavecraft_logo.png"
 	st.image(logo_image, width=200)
 
 def main():
