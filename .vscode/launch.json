@@ -8,9 +8,9 @@
 			"name": "Python Debugger: Current File",
 			"type": "debugpy",
 			"request": "launch",
-			"program": "${workspaceFolder}/song_recogniser.py",
+			"program": "${workspaceFolder}/register_page.py",
 			"console": "integratedTerminal",
-			"args": ["register", ".\\Samples\\StarWars60.wav"]
+			"args": ["register_file", ".\\Samples\\StarWars60.wav"]
 		}
 	]
 }
