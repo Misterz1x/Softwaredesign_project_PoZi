@@ -14,3 +14,4 @@ class Wave():
 		downsampled_signal = signal[::100]
 		print(f"numpy downsampled signal: {downsampled_signal} {len(downsampled_signal)}")
 		return downsampled_signal
+
