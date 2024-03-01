@@ -1,18 +1,23 @@
+import logging
 import os
 from tinydb import TinyDB, Query
 from Musikerkennung.Speichern.serializer import serializer
+import datetime
 
 
 class Save():
 	#Class variable that is shared between all instances of the class
 	db_connector = TinyDB(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database.json'), storage = serializer)
 
-	def __init__(self, hashes: list = None, song_info: list = None, file_path: str = None):
+	def __init__(self, hashes: list = None, song_info: list = None, file_path: str = None, last_viewed: datetime = None):
 		if hashes is not None and file_path is not None:
 			self.hashes = hashes
 			self.song_info = song_info
 			self.file_path = file_path
+			self.last_viewed = last_viewed
+			self.is_active = False
 		elif hashes is None:
+			self.is_active = True
 			self.song_info = song_info
 			self.file_path = file_path
 
@@ -27,24 +32,41 @@ class Save():
 	# Method to save the data to the database
 	def save_to_db(self):
 		#Create a table in the database
-		table = self.db_connector.table('hashes')
+		table_hashes = self.db_connector.table('hashes')
+		#Create a table in the database for the song info
+		table_song_data = Save.db_connector.table('song_info')
 		#Create a dictionary to store the data
 		query = Query()
+		#Create the result variable
+		result = None
 		#Check if the song is already in the database
-		result = table.search(query.song_id == self.hashes[0]['song_id'])
+		try:
+			if self.is_active:
+				result = table_song_data.search(query.song_id == self.song_info['song_id'])
+			else:
+				result = table_song_data.search(query.song_id == self.hashes[0]['song_id'])
+		except Exception as e:
+			raise TypeError(f"Error in save_to_db searching for song_data: {e}")
 		#If the song is not in the database, add it
-		if result:
-			print('Song already in database')
-		else:
-			table.insert_multiple(self.hashes)
+		try:
+			if result:
+				print('Song already in database')
+			else:
+				table_hashes.insert_multiple(self.hashes)
+		except Exception as e:
+			raise TypeError(f"Error in save_to_db inserting hashes: {e}")
 		# Store the song info in the database
-		if not result:
-			#Create a table in the database for the song info
-			table = Save.db_connector.table('song_info')
-			#Create a dictionary to store the data
-			song_data = {'artist': self.song_info['artist'], 'title': self.song_info['title'], 'file_link': self.song_info['file_link'], 'song_id': self.hashes[0]['song_id'],'file_path': self.file_path}
-			# Store the data
-			table.insert(song_data)
+		try:
+			if not result:
+				#Create a dictionary to store the data
+				song_data = {'artist': self.song_info['artist'], 'title': self.song_info['title'], 'last_viewed': self.last_viewed,'file_link': self.song_info['file_link'],'cover_url': self.song_info['cover_url'], 'song_id': self.hashes[0]['song_id'],'file_path': self.file_path}
+				# Store the data
+				table_song_data.insert(song_data)
+			elif result and self.is_active:
+				song_data_update = {'artist': self.song_info['artist'], 'title': self.song_info['title'], 'last_viewed': self.song_info['last_viewed'],'file_link': self.song_info['file_link'],'cover_url': self.song_info['cover_url'], 'song_id': self.song_info['song_id'],'file_path': self.song_info['file_path']}
+				table_song_data.update(song_data_update, doc_ids=[result[0].doc_id])
+		except Exception as e:
+			raise TypeError(f"Error in save_to_db inserting song_data: {e}")
 
 	def get_info(self):
 		return self.song_info
@@ -83,7 +105,7 @@ class Save():
 
 	# Method to get matches of the compared song
 	@classmethod
-	def get_matches(cls, hashes, min_matches = 10):
+	def get_matches(cls, hashes, min_matches = 15):
 		matches_dict = {}
 		h_dict = {}
 		#Search for the songs in the database
@@ -118,5 +140,21 @@ class Save():
 					continue
 			# Return the dictionary
 			return matches_dict
+		else:
+			return None
+
+	@classmethod
+	def get_all(cls):
+		#Create a list of all the songs
+		song_info = []
+		#Create a table in the database
+		table_songs = cls.db_connector.table('song_info')
+		#Check if the song is already in the database
+		result = table_songs.all()
+		#If the song is not in the database, add it
+		for song in result:
+			song_info.append(cls(song_info = song, file_path = song['file_path']))
+		if result:
+			return song_info
 		else:
 			return None
