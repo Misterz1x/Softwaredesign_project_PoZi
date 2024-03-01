@@ -95,8 +95,14 @@ class Fingerprint():
 				* t - list of times
 				* Sxx - Power value for each time/frequency pair
 		"""
-		a = AudioSegment.from_file(filename).set_channels(1).set_frame_rate(settings.SAMPLE_RATE)
-		audio = np.frombuffer(a.raw_data, np.int16)
+		try:
+			a = AudioSegment.from_file(filename).set_channels(1).set_frame_rate(settings.SAMPLE_RATE)
+		except Exception as e:
+			raise TypeError(f"Error in AudioSegment: {e}")
+		try:
+			audio = np.frombuffer(a.raw_data, np.int16)
+		except Exception as e:
+			raise TypeError(f"Error in np.frombuffer: {e}")
 		return self.my_spectrogram(audio)
 
 	def hash_points(self, points, filename):
@@ -137,10 +143,22 @@ class Fingerprint():
 		:param filename: The path to the file.
 		:returns: The output of :func:`hash_points`.
 		"""
-		f, t, Sxx = self.file_to_spectrogram(self.file_path)
-		peaks = self.find_peaks(Sxx)
-		peaks = self.idxs_to_tf_pairs(peaks, t, f)
-		self.hash_points(peaks, self.file_path)
+		try:
+			f, t, Sxx = self.file_to_spectrogram(self.file_path)
+		except Exception as e:
+			raise TypeError(f"Error in file_to_spectrogram: {e}")
+		try:
+			peaks = self.find_peaks(Sxx)
+		except Exception as e:
+			raise TypeError(f"Error in find_peaks: {e}")
+		try:
+			peaks = self.idxs_to_tf_pairs(peaks, t, f)
+		except Exception as e:
+			raise TypeError(f"Error in idxs_to_tf_pairs: {e}")
+		try:
+			self.hash_points(peaks, self.file_path)
+		except Exception as e:
+			raise TypeError(f"Error in hash_points: {e}")
 		return
 
 	def fingerprint_audio(self):

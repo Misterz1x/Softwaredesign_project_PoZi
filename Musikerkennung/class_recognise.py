@@ -7,10 +7,15 @@ from Musikerkennung.Speichern.class_save import Save
 from Musikerkennung.class_fingerprint import Fingerprint as FP
 from Musikerkennung.class_record import Record
 import pygame as pg
+from pytube import YouTube
+from audio_extract import extract_audio
+import os
+import datetime
 
 class Recognise():
 	# Initialises the class
-	def __init__(self, filename: str, song_info: tuple = None):
+	def __init__(self, file_link: str = None,  filename: str = None, song_info: tuple = None):
+		self.file_link = file_link
 		self.filename = filename
 		self.song_info = song_info
 
@@ -28,7 +33,7 @@ class Recognise():
 		"""
 		tag = TinyTag.get(filename)
 		artist = tag.artist if tag.albumartist is None else tag.albumartist
-		return (artist, tag.album, tag.title)
+		return {"artist": artist, "title": tag.title, "file_link": None}
 
 	def score_match(self, offsets):
 		"""Score a matched song.
@@ -95,11 +100,19 @@ class Recognise():
 			raise ValueError(f"{self.filename} is already registered")
 
 		try:
-			Fingerprint = FP(file_path=self.filename)
-			Fingerprint.fingerprint_file()
-			self.song_info = self.get_song_info(self.filename)
-			print(self.song_info)
-			File = Save(Fingerprint.hash_numbers(), self.song_info, self.filename)
+			try:
+				Fingerprint = FP(file_path=self.filename)
+				Fingerprint.fingerprint_file()
+				if self.song_info is None:
+					self.song_info = self.get_song_info(self.filename)
+			except Exception as e:
+				raise TypeError(f"Error in fingerprinting: {e}")
+			#print(self.filename)
+			#print(self.song_info)
+			try:
+				File = Save(Fingerprint.hash_numbers(), self.song_info, self.filename)
+			except Exception as e:
+				raise SyntaxError(f"Error in initializing the Save-Object: {e}")
 			# log everything
 			logging.info(f"{current_process().name} waiting to write {self.filename}. ({datetime.datetime.now()}")
 				# running single-threaded, no lock needed
@@ -107,6 +120,27 @@ class Recognise():
 			logging.info(f"{current_process().name} done writing {self.filename}. ({datetime.datetime.now()})")
 		except Exception as e:
 			logging.error(f"Error in register_song: {e}")
+			raise e
+
+	def download_audio(self):
+		try:
+			logging.info(f"Download {self.file_link}. ({datetime.datetime.now()})")
+			yt = YouTube(self.file_link)
+			video = yt.streams.filter(only_audio=True).first()
+			video.download(output_path = "Musik")
+			audio_path = os.path.join("Musik", video.default_filename)
+			self.filename = audio_path
+			if video.default_filename in os.listdir("Musik"):
+				actual_filename = self.filename[:-4]
+				if(self.filename.endswith(".mp4")):
+					extract_audio(input_path=self.filename, output_path=actual_filename + ".wav", output_format="wav")
+					self.filename = actual_filename + ".wav"
+					os.remove(audio_path)
+			self.song_info = {"artist": yt.author, "title": yt.title, "file_link": self.file_link, "cover_url": yt.thumbnail_url}
+			logging.info(f"Downloaded {video.title}. ({datetime.datetime.now()})")
+			return
+		except Exception as e:
+			logging.error(f"Error in download_audio: {e}")
 			raise e
 
 	def recognise_song(self):
@@ -129,6 +163,8 @@ class Recognise():
 			matched_song = self.best_match(matches)
 			self.song_info = Save.get_song_info(matched_song)
 			self.filename = self.song_info.file_path
+			self.song_info.song_info['last_viewed'] = datetime.datetime.now()
+			self.song_info.save_to_db()
 			logging.info(f"Matched {self.filename}")
 		except Exception as e:
 			logging.error(f"Error in recognise_song: {e}. ({datetime.datetime.now()})")
@@ -151,7 +187,7 @@ class Recognise():
 		try:
 			RE = Record(self.filename)
 			RE.listen_to_song()
-			Fingerprint = FP(RE.filename)
+			Fingerprint = FP(file_path=RE.filename)
 			Fingerprint.fingerprint_file()
 
 			logging.info(f"Find matches for {self.filename}. ({datetime.datetime.now()})")
@@ -160,11 +196,13 @@ class Recognise():
 			self.song_info = Save.get_song_info(matched_song)
 			try:
 				self.filename = self.song_info.file_path
+				self.song_info.song_info['last_viewed'] = datetime.datetime.now()
+				self.song_info.save_to_db()
 			except Exception as e:
 				raise AttributeError(f"Song not found in database.")
 			logging.info(f"Matched {self.filename}")
 		except Exception as e:
-			logging.error(f"Error in recognise_song: {e}. ({datetime.datetime.now()})")
+			logging.error(f"Error in listen_to_song: {e}. ({datetime.datetime.now()})")
 			raise e
 		return
 
