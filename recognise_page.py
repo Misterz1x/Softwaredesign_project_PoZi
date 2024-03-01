@@ -180,3 +180,4 @@ if st.session_state.show_session_rec == 1:
 		chart_wave_ph.empty()
 		chart_bpm_ph.empty()
 		listening_button()
+
